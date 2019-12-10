@@ -159,29 +159,40 @@
         </div> -->
         <!-- mission statement -->
 
+        <div class="uk-container uk-container-expand">
+            <div class="circle uk-align-center">
 
-        <div class="circle">
+                <a href="about.html" style="text-decoration:none">About</a>
 
-
-            <a href="about.html" onclick="openPage()" target="_self" style="text-decoration:none">About</a>
-
+            </div>
+            <div class="circle">
+                <a href="services.html" target="_self" style="text-decoration:none">Services</a>
+            </div>
+            <div class="circle">
+                <a href="testimonials.html" target="_self" style="text-decoration:none">Testimonials</a>
+            </div>
+            <div class="circle">
+                <a href="contact.html" target="_self" style="text-decoration:none">Contact</a>
+            </div>
         </div>
-        <div class="circle">
-            <a href="services.html" target="_self" style="text-decoration:none">Services</a>
-        </div>
-        <div class="circle">
-            <a href="testimonials.html" target="_self" style="text-decoration:none">Testimonials</a>
-        </div>
-        <div class="circle">
-            <a href="contact.html" target="_self" style="text-decoration:none">Contact</a>
-        </div>
 
-        <div class="mission" style="background-color:white">
-            <h1 class="mission"><strong>Mission Statement</strong></h1>
-            <p class="boxText2">Gabriela’s private “Chez Gabriela” Villa studio, located in Beverly Hills, aims to give
-                to all clients, from superstars to regular customers, the privacy needed for their own comfort and
-                maximum
-                ... </p>
+        <div class="uk-background-fixed uk-background-cover uk-background-center-center uk-height-medium uk-width-1-1"
+            style="background-image: url(assets/images/cgphoto3.jpeg);"></div>
+
+        <div class="uk-section">
+            <div class="uk-container">
+
+
+                <div class="mission" uk-parallax="viewport: 0.5" style="background-color:white">
+                    <h1 class="mission"><strong>Mission Statement</strong></h1>
+                    <p class="boxText2">Gabriela’s private “Chez Gabriela” Villa studio, located in Beverly Hills, aims
+                        to give
+                        to all clients, from superstars to regular customers, the privacy needed for their own comfort
+                        and
+                        maximum
+                        ... </p>
+                </div>
+            </div>
         </div>
 
 </body>
@@ -196,8 +207,6 @@
 
 <script>
     UIkit.sticky(element, options);
+    UIkit.parallax(element, options);
 
-    function openPage() {
-        document.getElementById("demo").innerHTML = "Hello World";
-    }
 </script>

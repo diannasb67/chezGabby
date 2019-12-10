@@ -12,7 +12,6 @@ body {
     padding-bottom: 0;
 }
 
-
 .image {
     height: 100%;
     width: auto;
@@ -116,7 +115,7 @@ body {
 
  .mission {
    padding: 10px;
-   margin-top: 200px;
+   margin-top: 25px;
    margin-bottom: 50px;
    font-family: 'Dancing Script', cursive;
   
@@ -175,3 +174,80 @@ body {
      text-align: center;
     
  }
+
+ @media screen and (max-width: 748px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+   .circle {
+    align-content: center;
+  }
+
+  .boxText2 {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    line-height: 150px;
+    text-align: center;
+    background: turquoise;
+    float: left;
+    margin: 30px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    border:0;
+  }
+
+}
+
+@media only screen and (max-width: 300px) {
+  /* img {
+      background-image: url(/assets/images/templogomobile.gif);
+      width: 100%;
+      height: auto;
+    }
+     */     
+     .boxText2 {
+      font-size: 20px;
+      padding: 0;
+
+    }
+
+    #circle {
+      width: 250px;
+      height: 250px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 25px;
+      border-radius: 175px;
+      background: turquoise;
+      padding: 10px;
+      margin: 10px;
+      margin-right: 100px;
+    }
+    
+    .circle {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      font-size: 30px;
+      color: #fff;
+      line-height: 300px;
+      text-align: center;
+      background: turquoise;
+      float: left;
+      margin: 30px;
+      font-family: 'Dancing Script', cursive;
+      text-decoration: none;
+      border:0;
+    }
+  
+
+} 
