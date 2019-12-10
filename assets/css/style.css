@@ -1,0 +1,177 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.navPad {
+    padding-bottom: 0;
+}
+
+
+.image {
+    height: 100%;
+    width: auto;
+    }
+
+.card {
+   float: right;
+   margin: 10px 10px 10px 10px;    
+}
+
+.naturalIngredients {
+    padding: 0;
+
+}
+
+.serviceCards {
+    margin: auto 0;
+}
+
+  .box {
+    float: left;
+    width: 50%;
+    height: 600px;
+    padding: 50px;
+    text-align: center   ;
+  }
+
+  .box2 {
+    float: left;
+    height: 700px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* NOTE boxText1 is for colored background, white lettering
+  NOTE boxText2 is for white background, black lettering */
+
+  .boxText1 {
+   color: white;
+   font-family: 'Montaga', serif;
+   font-size: 38px;
+  }
+
+  .boxText2 {
+    color: #4d4d4d;
+    font-family: 'Montaga', serif;
+    font-size: 38px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 65px;
+    padding-left: 65px;
+    margin-left: 50px;
+   } 
+
+   .boxText3 {
+    color: #4d4d4d;
+    font-family: 'Montaga', serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 25px;
+    margin-right: 65px;
+    padding-left: 65px;
+    margin-left: 50px;
+
+   } */
+
+   .gabbyPhoto {
+    margin-left: 160px;
+     margin-top: 25px;
+     margin-right: 200px; 
+   }
+
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .nameTitle
+  {
+    font-family: 'Montaga', serif;
+
+  }
+
+  h1 {
+    letter-spacing: 6px;
+    text-align: center; 
+ }
+
+ .imagePlaceholder {
+    align-content: center;
+   }
+
+ a {
+     padding: 10px;
+     color: white;
+ }
+
+ .mission {
+   padding: 10px;
+   margin-top: 200px;
+   margin-bottom: 50px;
+   font-family: 'Dancing Script', cursive;
+  
+ }
+
+ 
+ .missionText {
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Montaga', serif;
+}
+
+ #circle {
+  width: 250px;
+  height: 250px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 25px;
+  border-radius: 175px;
+  background: turquoise;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 100px;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  font-size: 60px;
+  color: #fff;
+  line-height: 300px;
+  text-align: center;
+  background: turquoise;
+  float: left;
+  margin: 30px;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  border:0;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+
+ .footerFont {
+     color: white;
+     text-align: center;
+    
+ }
