@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Testimonials</title>
+<!-- CSS links -->
+<link rel="stylesheet" href="./assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<!-- JQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower|Kaushan+Script|Play|Prompt&display=swap"
+    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Glass+Antiqua|Montaga|Roboto|Simonetta&display=swap"
+    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet">
 
-    <!-- CSS links -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Bootstrap CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <!-- JQuery CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower|Kaushan+Script|Play|Prompt&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua|Montaga|Roboto|Simonetta&display=swap"
-        rel="stylesheet">
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
 
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
 
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-</head>
 
-<body>
-                   <!-- navbar -->
-                   <div class="lock">
+
+
+<body class="servicesBody">
+                 <!-- navbar -->
+                 <div class="lock">
                     <!-- Navbar transparent -->
                     <nav class="uk-position-relative" style="padding:10px;" uk-navbar><a class="uk-navbar-toggle dis-none h-40"
                             id="navbar_toggle" uk-toggle="target: #offcanvas-usage">
@@ -85,8 +86,15 @@
                 
                 <!-- navbar end -->
 
+    </div>
 
-
+    <div>   
+        <img data-src="assets/images/CG.png" class="uk-align-center cg" uk-img>
+        <div class="uk-container uk-text-center slogan">Testimonials
+    </div>
+    <img data-src="./assets/images/yellowstoneflower.png" class="ingredientsImg" width="" height="" alt="" uk-img>
+   
+    
 
 </body>
 
@@ -95,9 +103,15 @@
             chezgabriela@chezgabrielaskin.com
         </a></p>
 </footer>
+</div>
+<script>
+    UIkit.sticky(element, options);
+    UIkit.parallax(element, options);
 
+</script>
 </html>
 
 <script>
     UIkit.sticky(element, options);
+    UIkit.img(element, options);
 </script>

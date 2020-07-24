@@ -65,7 +65,7 @@ body {
    font-size: 38px;
   }
 
-  .boxText2 {
+  /* .boxText2 {
     color: #4d4d4d;
     font-family: 'Montaga', serif;
     font-size: 38px;
@@ -75,7 +75,7 @@ body {
     margin-right: 65px;
     padding-left: 65px;
     margin-left: 50px;
-   } 
+   }  */
 
    .boxText3 {
     color: #4d4d4d;
@@ -124,12 +124,22 @@ body {
  }
 
  .mission {
-   padding: 10px;
+   padding: 20px;
    margin-top: 25px;
    margin-bottom: 50px;
    font-family: 'Dancing Script', cursive;
+   font-size: 30px;
   
  }
+
+ .missionHeader {
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-family: 'Dancing Script', cursive;
+  /* font-size: 60px; */
+ 
+}
 
  
  .missionText {
@@ -138,10 +148,6 @@ body {
   margin-bottom: 100px;
   font-family: 'Montaga', serif;
 }
-
-
-
-
 
 
 .footer {
@@ -240,9 +246,7 @@ img {
   } 
    
   @media screen and (max-width: 768px) {
-    body {
-      background-color: bisque;
-    }    
+      
     img {
           width: 100%;
           height: auto;
@@ -276,6 +280,14 @@ img {
           width: 40%;
           height: auto;
         }
+    
+         .aboutBody {
+          background-image: url(../images/texturebackground.png);
+        }
+        
+        .servicesBody {
+          background-image: url(../images/texturebackground.png);
+        }
       } 
 
 
@@ -299,6 +311,21 @@ img {
       .cg {
         width: 30%;
         height: auto;
+      }
+
+       .mission {
+        padding: 3px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        font-family: 'Dancing Script', cursive;
+      }
+    
+      .aboutBody {
+        background-image: url(../images/texturebackground.png);
+      }
+
+      .servicesBody {
+        background-image: url(../images/texturebackground.png);
       }
     }
 } 
