@@ -22,6 +22,16 @@ body {
    margin: 10px 10px 10px 10px;    
 }
 
+.slogan {
+  font-family: 'Red Rose';
+  font-size: 50px;
+  color: black;
+ 
+}
+
+.p_about {
+  text-align: justify;
+}
 .naturalIngredients {
     padding: 0;
 
@@ -81,9 +91,9 @@ body {
    } */
 
    .gabbyPhoto {
-    margin-left: 160px;
+    margin-left: 260px;
      margin-top: 25px;
-     margin-right: 200px; 
+     margin-right: 100px; 
    }
 
   
@@ -129,40 +139,17 @@ body {
   font-family: 'Montaga', serif;
 }
 
- #circle {
-  width: 250px;
-  height: 250px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 25px;
-  border-radius: 175px;
-  background: turquoise;
-  padding: 10px;
-  margin: 10px;
-  margin-right: 100px;
-}
 
-.circle {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  font-size: 60px;
-  color: #fff;
-  line-height: 300px;
-  text-align: center;
-  background: turquoise;
-  float: left;
-  margin: 30px;
-  font-family: 'Dancing Script', cursive;
-  text-decoration: none;
-  border:0;
-}
+
+
 
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 100px;
     background-color: black;
     color: white;
     text-align: center;
@@ -181,73 +168,137 @@ body {
     height: auto;
   }
 
-   .circle {
-    align-content: center;
-  }
-
-  .boxText2 {
-    font-size: 20px;
-    padding: 0;
-  }
-
-  .circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    font-size: 30px;
-    color: #fff;
-    line-height: 150px;
-    text-align: center;
-    background: turquoise;
-    float: left;
-    margin: 30px;
-    font-family: 'Dancing Script', cursive;
-    text-decoration: none;
-    border:0;
-  }
-
+ }
+/* 
+mobile navbar */
+.dis-none{
+  display: none;
 }
+#navbar_toggle{
+  position: absolute;
+  right: 1em;
+  top: 2em;
+}
+.h-40{
+  height: 40px !important;
+  min-height: 40px;
+}
+.logo{ width:70px; }
 
 @media only screen and (max-width: 300px) {
-  /* img {
-      background-image: url(/assets/images/templogomobile.gif);
+ .mobile {
+      background-image: url(/assets/images/yellowstonemobile.png);
       width: 100%;
       height: auto;
     }
-     */     
-     .boxText2 {
-      font-size: 20px;
-      padding: 0;
 
-    }
-
-    #circle {
-      width: 250px;
-      height: 250px;
-      -webkit-border-radius: 50px;
-      -moz-border-radius: 25px;
-      border-radius: 175px;
-      background: turquoise;
-      padding: 10px;
-      margin: 10px;
-      margin-right: 100px;
-    }
+  }
     
-    .circle {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      font-size: 30px;
-      color: #fff;
-      line-height: 300px;
-      text-align: center;
-      background: turquoise;
-      float: left;
-      margin: 30px;
-      font-family: 'Dancing Script', cursive;
-      text-decoration: none;
-      border:0;
-    }
+@media screen and (max-width:768px){
+  .uk-navbar-left{
+      display: block;
+      width: 100%;
+  }
+  .uk-navbar-item{ display: inline; }
   
+  .uk-navbar-nav{ display:block; }
 
+  .navbar-collapse{ width:100%; }
+
+  .uk-navbar-nav li{
+      display: block;
+      padding: 10px;
+      height: 40px;
+      border-bottom: 1px solid #ddd;
+  }
+
+  .uk-navbar-nav li a{
+      display: block;
+      width: 80%;
+      padding: 0.5rem 1rem;
+  }
+
+
+
+
+/* end navbar mobile css */
+
+/* img {padding: 20px;
+        border-radius: 5em;} */
+
+@media screen and (max-width: 992px) {
+img {
+      width: 100%;
+      height: auto;
+    }
+     
+   .menu-none {
+      display: none;
+    }
+
+
+  } 
+   
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: bisque;
+    }    
+    img {
+          width: 100%;
+          height: auto;
+        }
+
+        .a
+        {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 75%;
+        }
+
+        .navbar-collapse {
+          display: none;
+        }
+        .gabbyPhoto {
+          display: none; 
+         }
+    
+         .slogan {
+          font-family: 'Red Rose';
+          color: black;
+          font-size: 20px;
+        }    
+
+        .ingredientsImg {
+          display: none;
+       }
+         .cg {
+          width: 40%;
+          height: auto;
+        }
+      } 
+
+
+@media only screen and (max-width: 300px) {
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .gabbyPhoto {
+        display: none; 
+       }
+
+       .ingredientsImg {
+         display: none;
+       }
+       .slogan {
+        font-family: 'Red Rose';
+        color: black;
+        font-size: 20px;
+      }    
+      .cg {
+        width: 30%;
+        height: auto;
+      }
+    }
 } 

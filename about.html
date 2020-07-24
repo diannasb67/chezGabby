@@ -59,7 +59,7 @@
 
         img {
             float: right;
-            padding: 10px;
+            padding: 30px;
             margin-right: 50px;
         }
 
@@ -69,52 +69,78 @@
 </head>
 
 <body>
-    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-        <nav class="uk-navbar-container navPad" uk-navbar>
-            <div class="uk-navbar-center">
-
-                    <ul class="uk-navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="services.html">Services </a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li>
-                            </li>
+                     <!-- navbar -->
+                     <div class="lock">
+                        <!-- Navbar transparent -->
+                        <nav class="uk-position-relative" style="padding:10px;" uk-navbar><a class="uk-navbar-toggle dis-none h-40"
+                                id="navbar_toggle" uk-toggle="target: #offcanvas-usage">
+                                <i uk-icon="icon: menu; ratio: 2"></i>
+                                <div class="uk-navbar-left uk-logo">     
+                                </div>
+                                <div class="uk-navbar-center navHeight">
+                                </div>
+                                <div class="uk-navbar-left topnav">
+                    
+                                    <!-- ************************ SIDE NAVBAR ************************************************** -->
+                                      <div id="offcanvas-usage" uk-offcanvas>
+                                        <div class="uk-offcanvas-bar">
+                                                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="services.html">Services </a></li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                <li><a href="media.html">Media</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- **************************** SIDE NAVBAR END ********************************************** -->
+                                    <div class="navbar-collapse" id="navbar_collapse">
+                                        <ul class="uk-navbar-nav uk-navbar-center">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="services.html">Services </a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                            <li><a href="media.html">Media</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </nav>
+                        
+                       
         
-                        </ul>
-            </div>
-        </nav>
-        <!-- END NAV -->
-
+                       
+                      
+                    </div>
+                    
+                    <!-- navbar end -->
     </div>
-
+   
         <!-- first card -->
-        <div class="box2" style="background-color: white">
-            
-            <img src="assets/images/gabbyphoto.JPG" class="gabbyPhoto">
+        <div class="uk-container">    
+                   
+            <img data-src="assets/images/gabbyphoto.JPG" class="gabbyPhoto" uk-img>
             <h1 class="nameTitle">Chez Gabriela </h1>
-            <p class="boxText3">Born in Barcelona, Gabriela studied Elizabeth Arden's skin care technique with Elizabeth
+            <p class="p_about">Born in Barcelona, Gabriela studied Elizabeth Arden's skin care technique with Elizabeth
                 Arden protégé Maureen Russel in New York.</p>
-            <p class="boxText3">Gabriela continued her training with prestigious masters of skincare & beauty in
+            <p class="p_about">Gabriela continued her training with prestigious masters of skincare & beauty in
                 Switzerland. Through years of studying and skincare practice, Gabriela developed her own version of a
                 personalized system of beauty care treatments. Expanding her passion for skin and beauty, she partners
                 with some of the best Swiss chemists in the business to test and perfect skincare products for some of
                 the leading world beauty care brands.</p>
-            <p class="boxText3">In 1986 she opened her own private skincare studio called "Chez Gabriela Skin" in
+            <p class="p_about">In 1986 she opened her own private skincare studio called "Chez Gabriela Skin" in
                 Beverly Hills that rapidly became a status symbol for beauty care in Los Angeles and has grown to reach
                 all over US.</p>
-            <p class="boxText3">With special skincare techniques and hand manipulations, Gabriela developed a particular
+            <p class="p_about">With special skincare techniques and hand manipulations, Gabriela developed a particular
                 style that put her on the leading edge of beauty care today. She is widely known and referred to as the
                 incredibly talented "skin artist" responsible for glowing skin everywhere.</p>
-            <p class="boxText3"></p>
+          
         </div>
 
 
 </body>
 
-<footer class="footer">
+<footer class="footer">Contact:
     <p><a href="mailto:chezgabriela@chezgabrielaskin.com" class="footerFont">
             chezgabriela@chezgabrielaskin.com
         </a></p>

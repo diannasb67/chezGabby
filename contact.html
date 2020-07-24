@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
 <html lang="en">
 <!-- CSS links -->
 <link rel="stylesheet" href="./assets/css/reset.css">
@@ -22,16 +28,6 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua|Montaga|Roboto|Simonetta&display=swap"
     rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap" rel="stylesheet">
-
-<!-- Bootstrap -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
 
 <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
@@ -40,74 +36,69 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .imgbox {
-            display: grid;
-            height: 100%;
-        }
-
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-        }
-
-        .cener-logo {
-            margin: auto;
-        }
-    </style>
-
+    
 </head>
 
 <body>
+            <!-- navbar -->
+            <div class="lock">
+                <!-- Navbar transparent -->
+                <nav class="uk-position-relative" style="padding:10px;" uk-navbar><a class="uk-navbar-toggle dis-none h-40"
+                        id="navbar_toggle" uk-toggle="target: #offcanvas-usage">
+                        <i uk-icon="icon: menu; ratio: 2"></i>
+                        <div class="uk-navbar-left uk-logo">     
+                        </div>
+                        <div class="uk-navbar-center navHeight">
+                        </div>
+                        <div class="uk-navbar-left topnav">
+            
+                            <!-- ************************ SIDE NAVBAR ************************************************** -->
+                              <div id="offcanvas-usage" uk-offcanvas>
+                                <div class="uk-offcanvas-bar">
+                                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="services.html">Services </a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                        <li><a href="media.html">Media</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- **************************** SIDE NAVBAR END ********************************************** -->
+                            <div class="navbar-collapse" id="navbar_collapse">
+                                <ul class="uk-navbar-nav uk-navbar-center">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="services.html">Services </a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                </nav>
+                
+               
 
-    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-        <nav class="uk-navbar-container navPad" uk-navbar>
-            <div class="uk-navbar-center">
-
-                    <ul class="uk-navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="services.html">Services </a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li>
-                            </li>
-        
-                        </ul>
+               
+              
             </div>
-
-        </nav>
-
-        <!-- END NAV -->
+            
+            <!-- navbar end -->
+      
+    </div>   
 
     
-        <div class="uk-container-large" style="text-align:center" >
-            <img src="./assets/images/cgphoto4placeholder.jpg" class="imagePlaceholder">
-        </div>
- 
-
-
+      
 </body>
 
-<footer class="footer">
+<footer class="footer">Contact:
     <p><a href="mailto:chezgabriela@chezgabrielaskin.com" class="footerFont">
             chezgabriela@chezgabrielaskin.com
         </a></p>
 </footer>
-</div>
+
 </html>
 
 <script>
